@@ -3,6 +3,8 @@
 #include<ctime>
 #include "Answer.h"
 
+using namespace std;
+
 Answer::Answer()
 {
 	numbers = new int[DIGIT];
@@ -18,6 +20,16 @@ int Answer::GetNumber(int index) const
 	return numbers[index];
 }
 
+
+void Answer::Print() const
+{
+	cout << "Á¤´ä" << endl;
+	for (int i = 0; i < DIGIT; i++)
+	{
+		cout << numbers[i];
+	}
+	cout << endl;
+}
 
 void Answer::Generator()
 {

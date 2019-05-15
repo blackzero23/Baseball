@@ -14,6 +14,7 @@ int main(void)
 
 	answer->Generator();
 
+	answer->Print();
 	while (true) {
 		//2.추측을 입력받는다.
 		Guess* guess = new Guess();

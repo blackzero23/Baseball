@@ -19,7 +19,7 @@ public:
 
 	bool IsCorrect();//확인
 	void Calculator(const Answer* answer, const Guess* guess);//계산.
-	void Print();
+	void Print() const;
 
 };
 

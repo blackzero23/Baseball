@@ -15,6 +15,7 @@ public:
 
 	int GetNumber(int index) const;
 
+	void Print() const;
 	void Generator(); //컴퓨터가 내놓는 숫자 생성기.
 
 };

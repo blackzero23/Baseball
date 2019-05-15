@@ -40,7 +40,7 @@ void Result::Calculator(const Answer* answer, const Guess* guess)
 
 }
 
-void Result::Print()
+void Result::Print() const
 {
-	cout << "S : " << _strike << "B : " << _ball << "O :" << _out << endl;
+	cout << "S : " << _strike << " B : " << _ball << " O :" << _out << endl;
 }
