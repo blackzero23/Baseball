@@ -10,13 +10,14 @@ int main(void)
 {
 	//1.정답을 생성한다.
 	Answer* answer = new Answer();
-	//Answer answer();
-
+	
 	answer->Generator();
 
 	answer->Print();
+	
+	//2.추측을 입력받는다.
 	while (true) {
-		//2.추측을 입력받는다.
+		
 		Guess* guess = new Guess();
 
 		guess->Generator();
@@ -28,6 +29,7 @@ int main(void)
 
 		//4.결과를 출력한다.
 
+		guess->Print();//추측 입력 출력.
 		result->Print();
 
 		//5.정답과 추측이 일치하지 않으면, 2번으로 돌아간다.

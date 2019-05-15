@@ -1,4 +1,5 @@
 #include "Result.h"
+#include"Constant.h"
 #include<iostream>
 
 using namespace std;
@@ -36,6 +37,8 @@ void Result::Calculator(const Answer* answer, const Guess* guess)
 			_ball++;
 		else
 			_out++;
+
+
 	}
 
 }

@@ -1,16 +1,23 @@
 #include "Guess.h"
+#include"Constant.h"
 #include <iostream>
 
 using namespace std;
 
-Guess::Guess()
-{
-	numbers = new int[DIGIT];
-}
+//Guess::Guess()
+//{
+//	numbers = new int[DIGIT];
+//}
+//
+//Guess::~Guess()
+//{
+//	delete[] numbers;
+//}
 
-Guess::~Guess()
+
+void Guess::GetPrintPrefix() const
 {
-	delete[] numbers;
+	cout << "ÃßÃø" << endl;
 }
 
 int Guess::GetNumber(int index) const

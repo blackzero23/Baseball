@@ -146,11 +146,14 @@
     <ClCompile Include="Answer.cpp" />
     <ClCompile Include="Guess.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="NumberContainer.cpp" />
     <ClCompile Include="Result.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Answer.h" />
+    <ClInclude Include="Constant.h" />
     <ClInclude Include="Guess.h" />
+    <ClInclude Include="NumberContainer.h" />
     <ClInclude Include="Result.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

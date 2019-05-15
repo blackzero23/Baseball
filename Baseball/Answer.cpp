@@ -1,18 +1,27 @@
 #include<iostream>
 #include<cstdlib>
 #include<ctime>
+
 #include "Answer.h"
+#include "Constant.h"
 
 using namespace std;
 
-Answer::Answer()
-{
-	numbers = new int[DIGIT];
-}
+//Answer::Answer()
+//{
+//	numbers = new int[DIGIT];
+//}
+//
+//Answer::~Answer()
+//{
+//	delete[] numbers; //¼Ò¸ê.
+//}
 
-Answer::~Answer()
+
+
+void Answer::GetPrintPrefix() const
 {
-	delete[] numbers; //¼Ò¸ê.
+	cout << "ÇØ´ä" << endl;
 }
 
 int Answer::GetNumber(int index) const
@@ -21,15 +30,15 @@ int Answer::GetNumber(int index) const
 }
 
 
-void Answer::Print() const
-{
-	cout << "Á¤´ä" << endl;
-	for (int i = 0; i < DIGIT; i++)
-	{
-		cout << numbers[i];
-	}
-	cout << endl;
-}
+//void Answer::Print() const
+//{
+//	cout << "Á¤´ä" << endl;
+//	for (int i = 0; i < DIGIT; i++)
+//	{
+//		cout << numbers[i];
+//	}
+//	cout << endl;
+//}
 
 void Answer::Generator()
 {
