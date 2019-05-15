@@ -13,8 +13,7 @@ public:
 	Answer();// 생성자
 	~Answer();//소멸자
 
-	int& operator [] (int index); //비교 하기 위해서.
-	bool operator ==(int guess);
+	int GetNumber(int index) const;
 
 	void Generator(); //컴퓨터가 내놓는 숫자 생성기.
 

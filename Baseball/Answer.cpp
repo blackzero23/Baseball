@@ -13,16 +13,11 @@ Answer::~Answer()
 	delete[] numbers; //¼Ò¸ê.
 }
 
-int& Answer::operator[](int index)
+int Answer::GetNumber(int index) const
 {
 	return numbers[index];
-	// TODO: insert return statement here
 }
 
-bool Answer::operator==(int guess)
-{
-	return this->numbers ;
-}
 
 void Answer::Generator()
 {

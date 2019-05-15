@@ -13,7 +13,7 @@ Guess::~Guess()
 	delete[] numbers;
 }
 
-int& Guess::operator[](int index)
+int Guess::GetNumber(int index) const
 {
 	return numbers[index];
 }
