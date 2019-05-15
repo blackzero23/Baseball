@@ -9,6 +9,8 @@ public:
 	NumberContainer();
 	~NumberContainer();
 
+	int operator[](const int index) const;
+
 
 	virtual void GetPrintPrefix() const = 0;
 	void Print() const;

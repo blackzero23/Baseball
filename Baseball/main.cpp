@@ -25,7 +25,7 @@ int main(void)
 		//3.정답과 추측을 비교하여 결과를 판정한다.
 		Result* result = new Result();
 
-		result->Calculator(answer, guess); // a g
+		result->Calculator(*answer, *guess); // a g
 
 		//4.결과를 출력한다.
 

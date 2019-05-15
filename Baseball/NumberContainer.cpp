@@ -15,6 +15,11 @@ NumberContainer::~NumberContainer()
 }
 
 
+int NumberContainer::operator[](const int index)  const
+{
+	return numbers[index];
+}
+
 
 void NumberContainer::Print() const
 {

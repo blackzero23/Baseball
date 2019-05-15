@@ -15,10 +15,10 @@ public:
 	Result();
 	~Result();
 
-	
-
 	bool IsCorrect();//확인
-	void Calculator(const Answer* answer, const Guess* guess);//계산.
+
+	void Calculator(const Answer& answer, const Guess& guess);//계산.
+
 	void Print() const;
 
 };
