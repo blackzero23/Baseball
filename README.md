@@ -25,16 +25,14 @@
 ![image](https://user-images.githubusercontent.com/49605999/62817493-be9ae980-bb72-11e9-8271-32a1adeddae0.png)
 
 
-5.사용 방법
+4.사용 방법
 ==
 
 콘솔을 통해 프로그램이 실행이되며
 
-숫자 입력을 통해 각 기능들을 사용 할수 있으며
-범위 외의 숫자나 문자들은 예외 처리를 통해 아래의 그림과 같은 예외를 출력한다.
+![image](https://user-images.githubusercontent.com/49605999/62817505-03bf1b80-bb73-11e9-8f5d-e248213ba742.png)
 
-![image](https://user-images.githubusercontent.com/49605999/62817376-7ed30280-bb70-11e9-967d-10dbd6a42eeb.png)
-
+ 무엇인가에서 설명 과 같이 동작하며 현재 상태는 미리 정답을 보여 주고 추측을 입력 하는 방식으로 동작을 한다.
 
 
 
