@@ -16,7 +16,8 @@
 ==
 4.1ClassDiagram
 ------------
-![ClassDiagram31](https://user-images.githubusercontent.com/49605999/62817322-81812800-bb6f-11e9-98c3-ce9c0a7e0e27.png)
+>C++
+
 
 4.2Projecd 구성도
 -----------
