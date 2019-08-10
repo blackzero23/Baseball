@@ -22,18 +22,12 @@
 
 >C#
 
-
-
-
-
-4.2Projecd 구성도
------------
-![image](https://user-images.githubusercontent.com/49605999/62817340-db81ed80-bb6f-11e9-9147-97b8f289d479.png)
+![image](https://user-images.githubusercontent.com/49605999/62817493-be9ae980-bb72-11e9-8271-32a1adeddae0.png)
 
 
 5.사용 방법
 ==
-![image](https://user-images.githubusercontent.com/49605999/62817360-3f0c1b00-bb70-11e9-99ba-eb57d593626f.png)
+
 콘솔을 통해 프로그램이 실행이되며
 
 숫자 입력을 통해 각 기능들을 사용 할수 있으며
